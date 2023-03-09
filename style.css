@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(al.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-color: ; */
+}
+section {
+    position: static;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 100px;
+    color: #fcfffc;
+}
+.title span{
+    color: #f5B7C7;
+}
+.list_menu a:hover{
+    border-left: 2px solid #f5B7C7;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+.list_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fcfffc;
+    border-left: 2px solid #f5B7C7;
+    transition: all 0.3s ease; 
+}
+.list_menu{
+    margin-bottom: 75px;
+}
+.footer_menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fcfffc;
+}
+
+.list_menu li{
+    margin: 20px 0;
+}
+.menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 7px solid #fcfffc;
+    left: -400px;
+    z-index: 9999;
+}
+.menu:hover{
+    left: 0;
+    transition: all 0.3s ease;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.txt{
+    color: #fcfffc;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    font-size: 40px;
+    /* margin-bottom: px; */
+    width: 600px;
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(90deg, #ffc4b0, #ff9151, 0,5);
+}
+/* .txx{ */
+    /* color: #fcfffc; */
+    /* position: absolute; */
+    /* width: 600px; */
+    /* font-size: 40px; */
+    /* padding-top: 50%; */
+    /* padding-left: 10%; */
+
+/* } */
+.txx hr{
+  border: none;
+  border-top: 1px solid #ccc; /* задаем цвет линии */
+  margin: 0; /* устанавливаем нулевой отступ */
+  padding: 0; /* устанавливаем нулевое заполнение */
+  width: 10000px;
+}
+.txx{
+    color: #fcfffc;
+    position: absolute;
+    width: 600px;
+    font-size: 40px;
+    top: 110%; /* задаем позицию по вертикали */
+    left: 10%; /* задаем позицию по горизонтали */
+    margin-bottom: 500px;
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(90deg, #ffc4b0, #ff9151, 0,5);
+}
+.ttt {
+    padding-bottom: 1600px; /* измените значение в зависимости от вашего дизайна */
+  }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1f1f1f;
+    color: #fcfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:10px ;
+    background: rgba(20, 20, 20, 0.5);
+  }
+  
+  .footer_container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer_container p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* другие стили для хедера */
+  }
+  
+  .left-menu {
+    position: fixed;
+    top: 50px; /* установите нужное расстояние между хедером и меню */
+    left: 0;
+    /* другие стили для левого меню */
+  }
+  .logo {
+    margin-left: 10px; /* добавляем отступ слева от логотипа */
+    display: inline-block; /* задаем блочный контейнер для логотипа */
+    vertical-align: middle; /* выравниваем логотип и текст по центру */
+    margin-right: 10px; /* добавляем отступ справа от логотипа */
+  }
+  
+  .logo-text {
+    display: inline-block; /* задаем блочный контейнер для текста */
+    vertical-align: middle; /* выравниваем логотип и текст по центру */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcfffc;
+    font-size: 25px;
+    margin-top: -150px;
+  }
+  .menu-2 {
+    float: left;
+    width: 50%;
+    color: #fcfffc;
+    position: absolute;
+    font-size: 40px;
+    width: 600px;
+    top: 200%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(90deg, #ffc4b0, #ff9151, 0,5);
+  }
+  .menu-2-img img{
+    float: right;
+    max-width: 600px;
+    max-height:450px ;
+    position: absolute;
+    top: 177%; /* задаем позицию по вертикали */
+    left: 20%; /* задаем позицию по горизонтали */
+    border-radius: 15px;
+    border: 2px solid #fcfffc;
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.678);
+  }
+  .menu-3 hr{
+    width: 10000px;
+    margin-bottom: 150px;
+  }
+  .menu-3 h2{
+    margin-bottom: 20px;
+  }
+  .menu-3{
+    color: #fcfffc;
+    position: absolute;
+    width: 1000px;
+    font-size: 40px;
+    top: 270%; /* задаем позицию по вертикали */
+    left: 1%; /* задаем позицию по горизонтали */
+    margin-bottom: 500px;
+    padding-bottom: 1600px;
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(90deg, #ffc4b0, #ff9151, 0,5);
+  }
+  .cmok{
+    float: right;
+    max-width: 600px;
+    max-height:450px ;
+    position: absolute;
+    top: 10%; /* задаем позицию по вертикали */
+    left: -120%; /* задаем позицию по горизонтали */
+    border-radius: 15px;
+    border: 2px solid #fcfffc;
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.678);
+  }
+  .img-2{
+    float: right;
+    max-width: 600px;
+    max-height:450px ;
+    position: absolute;
+    top: -2%; /* задаем позицию по вертикали */
+    left: 180%; /* задаем позицию по горизонтали */
+    border-radius: 15px;
+    border: 2px solid #fcfffc;
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.678);
+  }
+ .sopli{
+  color: #fcfffc;
+  position: absolute;
+  width: 1500px;
+  font-size: 40px;
+  top: 350%; /* задаем позицию по вертикали */
+  left: 1%; /* задаем позицию по горизонтали */
+  margin-bottom: 500px;
+  text-shadow: 2px 2px 4px #000000;
+  background: linear-gradient(90deg, #ffc4b0, #ff9151, 0,5);
+  padding-bottom: 1600px;
+ }
